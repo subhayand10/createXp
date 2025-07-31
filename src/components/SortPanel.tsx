@@ -27,7 +27,7 @@ export default function SortPanel({ criteria, setCriteria }: Props) {
   };
 
   return (
-    <div className="border p-4 w-80 bg-white rounded shadow">
+    <div className="border p-4 w-80  rounded shadow">
       <h2 className="font-bold mb-2">Sort By</h2>
       <DndContext collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
         <SortableContext

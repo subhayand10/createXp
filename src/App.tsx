@@ -10,7 +10,7 @@ function App() {
   const [criteria, setCriteria] = useState<SortCriterion[]>([
     {
       id: nanoid(),
-      key: "name",
+      key: "email",
       order: "asc",
     },
   ]);

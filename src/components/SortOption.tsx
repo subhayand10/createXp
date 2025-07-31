@@ -38,7 +38,7 @@ export default function SortOption({ criterion, setCriteria }: Props) {
       {...attributes}
       {...listeners}
       style={style}
-      className="flex justify-between items-center border p-2 mb-2 bg-gray-50 rounded"
+      className="flex justify-between items-center border border-amber-400 p-2 mb-2 bg-gray-50 rounded"
     >
       <span className="capitalize">{criterion.key}</span>
       <div className="space-x-2">
